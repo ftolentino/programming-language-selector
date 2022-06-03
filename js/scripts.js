@@ -23,6 +23,9 @@ $(document).ready(function() {
     } else if (colorInput === 'red' && handInput ==='lefty'&& petInput === 'cat' && clubInput === 'man-city' && timeOfDayInput === 'yes') {
       $(".output").text('Python');
       $("#result-container").show();
+    } else {
+      $(".output").text('Java');
+      $("#result-container").show();
     }
   });
 });
