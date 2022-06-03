@@ -1,8 +1,3 @@
-// // Business Logic
-// function outcomeJavascript() {
-
-// }
-
 //UI Logic
 $(document).ready(function() {
   $("#survey-form").submit(function(event) {
@@ -14,17 +9,17 @@ $(document).ready(function() {
     const clubInput = $("input:radio[name=club]:checked").val();
     const timeOfDayInput = $("input:radio[name=answer]:checked").val();
 
-    if (colorInput === 'red' && handInput === 'lefty' && petInput === 'cat' && clubInput === 'liverpool'&& timeOfDayInput === 'yes') {
-      $('.output').text('Javascript');
+    if (colorInput === 'red' && handInput === 'lefty' && petInput === 'cat' && clubInput === 'liverpool' && timeOfDayInput === 'yes') {
+      $('.output').text('Java');
       $("#result-container").show();
     } else if ( colorInput === 'blue' && handInput ==='righty' && petInput === 'dog' && clubInput === 'man-city' && timeOfDayInput === 'no') {
       $(".output").text('C#');
       $("#result-container").show();
-    } else if (colorInput === 'red' && handInput ==='lefty'&& petInput === 'cat' && clubInput === 'man-city' && timeOfDayInput === 'yes') {
+    } else if (colorInput === 'red' && handInput ==='righty' && petInput === 'dog' && clubInput === 'liverpool' && timeOfDayInput === 'no') {
       $(".output").text('Python');
       $("#result-container").show();
     } else {
-      $(".output").text('Java');
+      $(".output").text('Javascript');
       $("#result-container").show();
     }
   });
