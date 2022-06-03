@@ -9,8 +9,8 @@
 * _HTML_
 * _CSS_
 * _Bootstrap_
-*_JS_
-*_jQuery_
+* _JS_
+* _jQuery_
 * _Github_
 
 ## Description/Goals
