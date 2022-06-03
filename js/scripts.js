@@ -12,10 +12,10 @@ $(document).ready(function() {
     if (colorInput === 'red' && handInput === 'lefty' && petInput === 'cat' && clubInput === 'liverpool' && timeOfDayInput === 'yes') {
       $('.output').text('Java');
       $("#result-container").show();
-    } else if ( colorInput === 'blue' && handInput ==='righty' && petInput === 'dog' && clubInput === 'man-city' && timeOfDayInput === 'no') {
+    } else if ( colorInput === 'blue' && handInput === 'righty' && petInput === 'dog' && clubInput === 'man-city' && timeOfDayInput === 'no') {
       $(".output").text('C#');
       $("#result-container").show();
-    } else if (colorInput === 'red' && handInput ==='righty' && petInput === 'dog' && clubInput === 'liverpool' && timeOfDayInput === 'no') {
+    } else if (colorInput === 'red' && handInput === 'righty' && petInput === 'dog' && clubInput === 'liverpool' && timeOfDayInput === 'no') {
       $(".output").text('Python');
       $("#result-container").show();
     } else {
